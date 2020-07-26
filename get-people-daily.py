@@ -15,7 +15,7 @@ class Paper(object):
         self.month = '%02d' % month
         self.day = '%02d' % day
         self.d = self.year+self.month+self.day
-        self.base_url = 'http://paper.people.com.cn/rmrb/page/'
+        self.base_url = 'http://paper.people.com.cn/rmrb/images/'
         self.size = 0
 
     def get_pdf(self, url, filename):
